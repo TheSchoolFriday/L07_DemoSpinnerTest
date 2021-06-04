@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 switch (position) {
                     case 0:
-                        tvDisplay.setText("Yes is Selected.");
+                        tvDisplay.setText("Spinner Item, Yes is Selected.");
                         Toast.makeText(MainActivity.this, "Yes was selected.\nSelected Spinner", Toast.LENGTH_SHORT).show();
                         break;
                     case 1:
-                        tvDisplay.setText("No is Selected.");
+                        tvDisplay.setText("Spinner Item, No is Selected.");
                         Toast.makeText(MainActivity.this, "No was selected.\nSelected Spinner", Toast.LENGTH_SHORT).show();
                         break;
                 }
